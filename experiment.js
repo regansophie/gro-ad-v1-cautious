@@ -1366,7 +1366,7 @@ var pre_prediction_configs_2 = [{
 }]
 
 
-var speaker_same = makeSpeakerGumballConfigs(2, "female", .31, 2);
+var speaker_same = makeSpeakerGumballConfigs(2, "female", .31, 3);
 var speaker_diff_group= makeSpeakerGumballConfigs(5, "male", .41, 7);
 var speaker_same_group= makeSpeakerGumballConfigs(5, "male", .41, 4);
 
