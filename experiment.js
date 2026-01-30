@@ -1378,7 +1378,7 @@ var configs_s3 = makeConditionConfigs("cautious", "bill", "blue", 0.6, "male", 7
 
 // Assign to one condition
 
-var condition = jsPsych.randomization.sampleWithoutReplacement([3], 1)[0];
+var condition = jsPsych.randomization.sampleWithoutReplacement([2], 1)[0];
 jsPsych.data.addProperties({ prediction_condition: condition });
 
 
