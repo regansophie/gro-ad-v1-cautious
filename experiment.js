@@ -1389,11 +1389,11 @@ const timeline = [];
 
 console.log(condition);
 //Uncomment line below for RPP
-//timeline.push(opening_instructions);
+timeline.push(opening_instructions);
 
 //Uncomment lines below for prolific 
-timeline.push(prolific_id_page);
-timeline.push(opening_instructions_prolific);
+//timeline.push(prolific_id_page);
+//timeline.push(opening_instructions_prolific);
 
 timeline.push(consent_block);
 
@@ -1434,10 +1434,10 @@ if (condition ===3){
 timeline.push(saving_screen);
 timeline.push(save_data);
 
-timeline.push(prolific_completion_page);
+//timeline.push(prolific_completion_page);
 
 //Uncomment for RPP
-//timeline.push(credit_instructions);
+timeline.push(credit_instructions);
 
 
 // ---------------------
